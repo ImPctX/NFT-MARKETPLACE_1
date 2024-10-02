@@ -17,6 +17,8 @@ import { DiJqueryLogo } from "react-icons/di";
 //INTERNAL IMPORT
 import Style from "./SideBar.module.css";
 import images from "../../../img";
+import ImpactXLogo from "../../../img/ImpactX.png"; // Import your logo here
+
 import Button from "../../Button/Button";
 import { Router } from "next/router";
 
@@ -32,6 +34,14 @@ const SideBar = ({ setOpenSideMenu, currentAccount, connectWallet }) => {
     {
       name: "Collection",
       link: "collection",
+    },
+    {
+      name: "ImpactQuest",
+      link: "/ImpactQuest",
+    },
+    {
+      name: "ImpactTube",
+      link: "/ImpactTube",
     },
     {
       name: "Search",
@@ -117,9 +127,16 @@ const SideBar = ({ setOpenSideMenu, currentAccount, connectWallet }) => {
         {/* <Image src={images.logo} alt="logo" width={150} height={150} /> */}
         <p>
           <a href="/">
-            <DiJqueryLogo className={Style.sideBar_box_logo} />
+            <Image
+              src={ImpactXLogo}
+              alt="ImpactX Logo"
+              className={Style.sideBar_box_logo}
+              width={100}
+              height={80}
+            />
           </a>
         </p>
+
         <p>
           Discover the most outstanding articles on all topices of NFT & write
           your own stories and share them

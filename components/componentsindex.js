@@ -3,6 +3,8 @@ import Footer from "./Footer/Footer";
 import NavBar from "./NavBar/NavBar";
 import HeroSection from "./HeroSection/HeroSection";
 import Service from "./Service/Service";
+import Questservise from "./Quest-service/Quest-service";
+import Tubeservice from "./Tube-service/Tube-service";
 import BigNFTSilder from "./BigNFTSilder/BigNFTSilder";
 import Subscribe from "./Subscribe/Subscribe";
 import Title from "./Title/Title";
@@ -25,6 +27,8 @@ export {
   NavBar,
   HeroSection,
   Service,
+  Questservise,
+  Tubeservice,
   BigNFTSilder,
   Subscribe,
   Title,

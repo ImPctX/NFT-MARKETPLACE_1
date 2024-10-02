@@ -5,6 +5,8 @@ import Style from "../styles/index.module.css";
 import {
   HeroSection,
   Service,
+  Questservise,
+  Tubeservice,
   BigNFTSilder,
   Subscribe,
   Title,
@@ -55,6 +57,16 @@ const Home = () => {
     <div className={Style.homePage}>
       <HeroSection />
       <Service />
+      <Title
+        heading="ImpactQuest"
+        paragraph="Gamified Cryptocurrency Rewards for Real-World Social Actions"
+      />
+      <Questservise />
+      <Title
+        heading=" ImpactTube"
+        paragraph="A Decentralized Monetization Ecosystem Empowering Creators, Users, NGOs, and Social Good Initiatives"
+      />
+      <Tubeservice />
       <BigNFTSilder />
       <Title
         heading="Audio Collection"

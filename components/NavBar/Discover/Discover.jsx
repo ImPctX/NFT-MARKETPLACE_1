@@ -12,6 +12,14 @@ const Discover = () => {
       link: "collection",
     },
     {
+      name: "ImpactQuest",
+      link: "ImpactQuest",
+    },
+    {
+      name: "ImpactTube",
+      link: "ImpactTube",
+    },
+    {
       name: "Search",
       link: "searchPage",
     },

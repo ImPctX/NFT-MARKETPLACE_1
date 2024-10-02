@@ -13,6 +13,7 @@ import Style from "./NavBar.module.css";
 import { Discover, HelpCenter, Notification, Profile, SideBar } from "./index";
 import { Button, Error } from "../componentsindex";
 import images from "../../img";
+import ImpactXLogo from "../../img/ImpactX.png"; // Import your logo here
 
 //IMPORT FROM SMART CONTRACT
 import { NFTMarketplaceContext } from "../../Context/NFTMarketplaceContext";
@@ -87,7 +88,15 @@ const NavBar = () => {
       <div className={Style.navbar_container}>
         <div className={Style.navbar_container_left}>
           <div className={Style.logo}>
-            <DiJqueryLogo onClick={() => router.push("/")} />
+            {/* Replace DiJqueryLogo with your custom logo */}
+            <Image
+              src={ImpactXLogo}
+              alt="ImpactX Logo"
+              width={150}
+              height={100}
+              onClick={() => router.push("/")}
+              className={Style.logo_image}
+            />
           </div>
           <div className={Style.navbar_container_left_box_input}>
             <div className={Style.navbar_container_left_box_input_box}>
